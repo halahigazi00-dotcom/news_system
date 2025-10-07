@@ -1,0 +1,190 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #517fad; /* خلفية بلون أزرق فاتح جداً (أفتح من الكحلي) */
+    direction: rtl;
+    line-height: 1.6;
+}
+
+/* === الهيدر العلوي === */
+.header {
+    background-color: #30485e; /* لون كحلي غامق */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* === شريط التنقل (القائمة) === */
+nav {
+    background-color: #2c4054; /* كحلي أفتح قليلاً */
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #4e6a85;
+}
+
+/* زر تسجيل الخروج الخاص */
+.logout-btn {
+    background-color: #e74c3c; /* لون أحمر مميز */
+    border: none;
+}
+.logout-btn:hover {
+    background-color: #c0392b;
+}
+
+/* === الحاوية الرئيسية للمحتوى === */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+/* === الفورم === */
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container textarea,
+.form-container select,
+.form-container input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-container input[type="submit"] {
+    background-color: #3498db; /* أزرق */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* === الجداول === */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: right;
+    border-bottom: 1px solid #ecf0f1;
+    vertical-align: middle;
+}
+
+thead th {
+    background-color: #34495e; /* رأس الجدول بالكحلي */
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+table img {
+    width: 100px;
+    border-radius: 5px;
+}
+
+/* === روابط التعديل والحذف === */
+.update-link { color: #f39c12; text-decoration: none; font-weight: bold; }
+.delete-link { color: #e74c3c; text-decoration: none; font-weight: bold; }
+
+/* === رسائل الحالة === */
+.status-message {
+    padding: 15px;
+    margin: 15px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.success { background-color: #d4edda; color: #155724; }
+.error { background-color: #f8d7da; color: #721c24; }
+
+/* === أزرار وروابط إضافية === */
+.action-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.action-link:hover {
+    background-color: #2980b9;
+}
+
+/* الرسالة الترحيبية في الداشبورد */
+.welcome-message {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(74, 71, 128, 0.08);
+}
+.welcome-message h3 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+.welcome-message h4 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 15px;
+}
