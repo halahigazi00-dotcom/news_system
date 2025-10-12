@@ -25,7 +25,12 @@
             <input type="password" id="password" name="password" required>
             
             <input type="submit" name="register" value="إنشاء الحساب">
+            <div class="login-links">
+    <p>لديك حساب بالفعل؟ <a href="login_ui.php">سجل الدخول</a></p>
+</div>
+
         </form>
     </div>
 </body>
+
 </html>
